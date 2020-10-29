@@ -1,0 +1,37 @@
+
+  h1{
+      color: white;
+      font-family: sans-serif;
+      font-weight: bold;
+      font-size: 3vw;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      text-shadow:black 0px 0px 10px;
+      text-align: center;
+  }
+
+  .centered {
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .search-bar{
+      box-shadow: black 0px 0px 10px;
+  }
+
+  .search-button{
+    background-color:#3d6949;
+    border-color: #3d6949;
+    color: white;
+    font-family: sans-serif;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+    &:hover{
+        background-color: darken(#3d6949, 5%);
+        border-color: darken(#3d6949, 5%);
+    }
+  }
